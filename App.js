@@ -1,12 +1,31 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  const [alphIsPicked, setAlphIsPicked] = useState(false);
+	const [alphabet, setAlphabet] = useState(""); 
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View className='app'>
+    {alphIsPicked ? (
+      <View>
+        <Text>Play Game</Text>
+        {/* <Game
+          alphabet={alphabet}
+          setAlphIsPicked={setAlphIsPicked}
+        /> */}
+      </View>
+    ) : (
+      <View>
+        <Text>Select Alphabet</Text>
+        {/* <SelectLang
+          setAlphabet={setAlphabet}
+          setAlphIsPicked={setAlphIsPicked}
+        /> */}
+      </View>
+    )}
+    <StatusBar style="auto" />
     </View>
   );
 }
