@@ -104,10 +104,10 @@ export default function Game(props) {
 						data={answerKey}
 						keyExtractor={(item, index) => index.toString()}
 						renderItem={({item}) => {
-							return <Answer style={styles.item} handleAnswerButtonClick={handleAnswerButtonClick} latinLetter={item.latin}/>
-							// <Text style={styles.item}>
-							// 	{item}
-							// </Text>
+							return <Answer 
+								style={styles.item} 
+								handleAnswerButtonClick={handleAnswerButtonClick} 
+								latinLetter={item.latin}/>
 						}}
 					/>
 
@@ -171,16 +171,5 @@ const styles = StyleSheet.create({
         backgroundColor: '#30A6E7',
         color: 'white',
         width: 200,
-	},
-	answerButton: {
-		alignItems: 'center',
-        justifyContent: 'center',
-        paddingVertical: 12,
-        marginVertical: 6,
-        borderRadius: 4,
-        elevation: 3,
-        backgroundColor: '#30A6E7',
-        color: 'white',
-		width: 100,
 	},
   });  
