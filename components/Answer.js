@@ -4,7 +4,7 @@ import { TouchableHighlight, View, Text, StyleSheet } from 'react-native';
 function Answer(props) {
     return (
         <View 
-        // onClick={play}
+        // onPress={playSound} 
         >
             <TouchableHighlight 
                 style={styles.answerButton}

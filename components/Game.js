@@ -71,13 +71,18 @@ export default function Game(props) {
 			setSelectedAnswer("");
 		}
 	};
-	
-	var answerKey = [
-		props.alphabet[currentQuestion], 
+
+	//shuffles the answers for each question
+	var shuffle = require('shuffle-array')
+	const shuffledAnswers = useMemo(() => {
+		var answerKey = [
+			props.alphabet[currentQuestion], 
 		props.alphabet[pickedTwo], 
 		props.alphabet[pickedThree], 
 		props.alphabet[pickedFour]
-	]
+		]
+		return shuffle(answerKey);
+	}, [currentQuestion, pickedFour, pickedThree, pickedTwo, props.alphabet, shuffle])
 
 	return (
 		<View style={styles.container}>
@@ -101,12 +106,13 @@ export default function Game(props) {
 					<FlatList
 						contentContainerStyle={styles.grid}
 						numColumns={2}
-						data={answerKey}
+						data={shuffledAnswers}
 						keyExtractor={(item, index) => index.toString()}
 						renderItem={({item}) => {
 							return <Answer 
 								style={styles.item} 
 								handleAnswerButtonClick={handleAnswerButtonClick} 
+								sound={item.sound}
 								latinLetter={item.latin}/>
 						}}
 					/>
