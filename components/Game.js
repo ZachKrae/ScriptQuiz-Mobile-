@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
-import { render } from 'react-dom';
 import { Text, View, StyleSheet, FlatList, TouchableOpacity, TouchableHighlight } from 'react-native';
 import Answer from './Answer';
+import ScorePage from './ScorePage'
 
 export default function Game(props) {
 	const arrayLength = props.alphabet.length 
@@ -77,9 +77,9 @@ export default function Game(props) {
 	const shuffledAnswers = useMemo(() => {
 		var answerKey = [
 			props.alphabet[currentQuestion], 
-		props.alphabet[pickedTwo], 
-		props.alphabet[pickedThree], 
-		props.alphabet[pickedFour]
+			props.alphabet[pickedTwo], 
+			props.alphabet[pickedThree], 
+			props.alphabet[pickedFour]
 		]
 		return shuffle(answerKey);
 	}, [currentQuestion, pickedFour, pickedThree, pickedTwo, props.alphabet, shuffle])
@@ -87,15 +87,12 @@ export default function Game(props) {
 	return (
 		<View style={styles.container}>
 			{showScore ? (
-				<View>
-					<Text style={styles.headingText}>Final Score: {score} out of {answeredQs}</Text>
-					<TouchableOpacity style={styles.commandButton} onPress={restartGame}>
-						<Text style={styles.headingText}>Restart Game</Text>
-					</TouchableOpacity>
-					<TouchableOpacity style={styles.commandButton} onPress={backToMenu}>
-						<Text style={styles.headingText}>Back to Menu</Text>
-					</TouchableOpacity>
-				</View>
+				<ScorePage 
+					score={score}
+					answeredQs={answeredQs}
+					restartGame={restartGame}
+					backToMenu={backToMenu}
+				/>
 			) : (
 				<View style={styles.container}>
 					<Text style={styles.headingText}>Question {answeredQs + 1}</Text>
