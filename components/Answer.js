@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { TouchableHighlight, View, Text, StyleSheet } from 'react-native';
-
+// import useSound from "react-native-use-sound";
+        
 function Answer(props) {
+    // const [play] = useSound(props.sound);
+
+    const doTheClick = () => {
+        props.handleAnswerButtonClick(props.latinLetter)
+        // play();
+    }
+
     return (
-        <View 
-        // onPress={playSound} 
-        >
+        <View>
             <TouchableHighlight 
                 style={styles.answerButton}
                 underlayColor={'orange'} 
-                onPress={() => props.handleAnswerButtonClick(props.latinLetter)}>
+                onPress={() => doTheClick()}>
                 <Text style={styles.buttonText}>{props.latinLetter}</Text>
             </TouchableHighlight>
         </View>

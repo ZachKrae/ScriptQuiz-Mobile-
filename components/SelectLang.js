@@ -11,6 +11,8 @@ import Hebrew from './Hebrew.js'
 import Tibetan from './Tibetan.js'
 import Devanagari from './Devanagari.js'
 import Korean from './Korean.js';
+import Cherokee from './Cherokee.js'
+import Tizinagh from './Tizinagh.js'
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
 const SelectLang = (props) => {
@@ -27,6 +29,9 @@ const SelectLang = (props) => {
             </TouchableOpacity>
             <TouchableOpacity style={styles.selecterButton} onPress={() => selectAnAlph(Armenian)}>
                 <Text style={styles.buttonText}>Armenian</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.selecterButton} onPress={() => selectAnAlph(Cherokee)}>
+                <Text style={styles.buttonText}>Cherokee</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.selecterButton} onPress={() => selectAnAlph(Devanagari)}>
                 <Text style={styles.buttonText}>Devanagari</Text>
@@ -57,6 +62,9 @@ const SelectLang = (props) => {
             </TouchableOpacity>
             <TouchableOpacity style={styles.selecterButton} onPress={() => selectAnAlph(Tibetan)}>
                 <Text style={styles.buttonText}>Tibetan (Wylie)</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.selecterButton} onPress={() => selectAnAlph(Tizinagh)}>
+                <Text style={styles.buttonText}>Tizinagh</Text>
             </TouchableOpacity>
         </View>
     )

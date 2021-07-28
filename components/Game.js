@@ -107,6 +107,7 @@ export default function Game(props) {
 						keyExtractor={(item, index) => index.toString()}
 						renderItem={({item}) => {
 							return <Answer 
+								key={item.id}
 								style={styles.item} 
 								handleAnswerButtonClick={handleAnswerButtonClick} 
 								sound={item.sound}
