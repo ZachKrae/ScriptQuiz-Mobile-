@@ -132,7 +132,7 @@ export default function Game(props) {
           />
 
           <TouchableOpacity
-            style={styles.commandButton}
+            style={styles.submitButton}
             onPress={() => evalAnswer(selectedAnswer)}>
             <Text style={styles.headingText}>Submit</Text>
           </TouchableOpacity>
@@ -187,6 +187,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingVertical: 12,
     marginVertical: 6,
+    paddingHorizontal: 32,
+    borderRadius: 4,
+    elevation: 3,
+    backgroundColor: '#30A6E7',
+    color: 'white',
+    width: 200,
+  },
+  submitButton: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 12,
+    marginBottom: 120,
     paddingHorizontal: 32,
     borderRadius: 4,
     elevation: 3,
