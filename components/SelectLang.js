@@ -13,6 +13,7 @@ import Tifinagh from './Tifinagh.js';
 import Devanagari from './Devanagari.js';
 import Korean from './Korean.js';
 import Cherokee from './Cherokee.js';
+import Thai from './Thai.js';
 import {
   View,
   Text,
@@ -100,6 +101,11 @@ const SelectLang = props => {
           style={styles.selecterButton}
           onPress={() => selectAnAlph(Tifinagh)}>
           <Text style={styles.buttonText}>Tifinagh</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.selecterButton}
+          onPress={() => selectAnAlph(Thai)}>
+          <Text style={styles.buttonText}>Thai</Text>
         </TouchableOpacity>
       </ScrollView>
     </View>
