@@ -112,6 +112,13 @@ export default function Game(props) {
           <Text style={styles.letterSpace}>
             {props.alphabet[currentQuestion].name}
           </Text>
+          <View style={styles.positionSpace}>
+            {props.alphabet[currentQuestion].position && (
+              <Text style={styles.headingText}>
+                {props.alphabet[currentQuestion].position} position
+              </Text>
+            )}
+          </View>
 
           {/* array of possible answers, in grid form */}
           <FlatList
@@ -158,6 +165,7 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
+    height: '50%',
     alignItems: 'center',
     justifyContent: 'center',
     paddingTop: 100,
@@ -198,12 +206,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 12,
-    marginBottom: 120,
+    marginBottom: 100,
     paddingHorizontal: 32,
     borderRadius: 4,
     elevation: 3,
     backgroundColor: '#30A6E7',
     color: 'white',
     width: 200,
+  },
+  positionSpace: {
+    height: 20,
   },
 });

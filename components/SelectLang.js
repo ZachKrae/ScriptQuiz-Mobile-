@@ -14,6 +14,7 @@ import Devanagari from './Devanagari.js';
 import Korean from './Korean.js';
 import Cherokee from './Cherokee.js';
 import Thai from './Thai.js';
+import Ukrainian from './Ukrainian.js';
 import {
   View,
   Text,
@@ -46,6 +47,16 @@ const SelectLang = props => {
           style={styles.selecterButton}
           onPress={() => selectAnAlph(Cherokee)}>
           <Text style={styles.buttonText}>Cherokee</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.selecterButton}
+          onPress={() => selectAnAlph(RusCyrillic)}>
+          <Text style={styles.buttonText}>Cyrillic (Russian)</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.selecterButton}
+          onPress={() => selectAnAlph(Ukrainian)}>
+          <Text style={styles.buttonText}>Cyrillic (Ukrainian)</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.selecterButton}
@@ -86,11 +97,6 @@ const SelectLang = props => {
           style={styles.selecterButton}
           onPress={() => selectAnAlph(Persian)}>
           <Text style={styles.buttonText}>Persian</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.selecterButton}
-          onPress={() => selectAnAlph(RusCyrillic)}>
-          <Text style={styles.buttonText}>Cyrillic (Russian)</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.selecterButton}
