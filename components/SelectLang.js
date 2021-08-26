@@ -94,6 +94,11 @@ const SelectLang = props => {
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.selecterButton}
+          onPress={() => selectAnAlph(Thai)}>
+          <Text style={styles.buttonText}>Thai</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.selecterButton}
           onPress={() => selectAnAlph(Tibetan)}>
           <Text style={styles.buttonText}>Tibetan (Wylie)</Text>
         </TouchableOpacity>
@@ -101,11 +106,6 @@ const SelectLang = props => {
           style={styles.selecterButton}
           onPress={() => selectAnAlph(Tifinagh)}>
           <Text style={styles.buttonText}>Tifinagh</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.selecterButton}
-          onPress={() => selectAnAlph(Thai)}>
-          <Text style={styles.buttonText}>Thai</Text>
         </TouchableOpacity>
       </ScrollView>
     </View>
