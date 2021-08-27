@@ -29,43 +29,10 @@
 // import ukrainian28 from '../voiceclips/ukrainian/ukrainian28.mp3';
 // import ukrainian29 from '../voiceclips/ukrainian/ukrainian29.mp3';
 // import ukrainian30 from '../voiceclips/ukrainian/ukrainian30.mp3';
-// import ukrainian31 from '../voiceclips/ukrainian/ukrainian31.mp3';
+// 
 // import ukrainian32 from '../voiceclips/ukrainian/ukrainian32.mp3';
 // import ukrainian33 from '../voiceclips/ukrainian/ukrainian33.mp3';
-// import ukrainian34 from '../voiceclips/ukrainian/ukrainian34.mp3';
-// import ukrainian35 from '../voiceclips/ukrainian/ukrainian35.mp3';
-// import ukrainian36 from '../voiceclips/ukrainian/ukrainian36.mp3';
-// import ukrainian37 from '../voiceclips/ukrainian/ukrainian37.mp3';
-// import ukrainian38 from '../voiceclips/ukrainian/ukrainian38.mp3';
-// import ukrainian39 from '../voiceclips/ukrainian/ukrainian39.mp3';
-// import ukrainian40 from '../voiceclips/ukrainian/ukrainian40.mp3';
-// import ukrainian41 from '../voiceclips/ukrainian/ukrainian41.mp3';
-// import ukrainian42 from '../voiceclips/ukrainian/ukrainian42.mp3';
-// import ukrainian43 from '../voiceclips/ukrainian/ukrainian43.mp3';
-// import ukrainian44 from '../voiceclips/ukrainian/ukrainian44.mp3';
-// import ukrainian45 from '../voiceclips/ukrainian/ukrainian45.mp3';
-// import ukrainian46 from '../voiceclips/ukrainian/ukrainian46.mp3';
-// import ukrainian47 from '../voiceclips/ukrainian/ukrainian47.mp3';
-// import ukrainian48 from '../voiceclips/ukrainian/ukrainian48.mp3';
-// import ukrainian49 from '../voiceclips/ukrainian/ukrainian49.mp3';
-// import ukrainian50 from '../voiceclips/ukrainian/ukrainian50.mp3';
-// import ukrainian51 from '../voiceclips/ukrainian/ukrainian51.mp3';
-// import ukrainian52 from '../voiceclips/ukrainian/ukrainian52.mp3';
-// import ukrainian53 from '../voiceclips/ukrainian/ukrainian53.mp3';
-// import ukrainian54 from '../voiceclips/ukrainian/ukrainian54.mp3';
-// import ukrainian55 from '../voiceclips/ukrainian/ukrainian55.mp3';
-// import ukrainian56 from '../voiceclips/ukrainian/ukrainian56.mp3';
-// import ukrainian57 from '../voiceclips/ukrainian/ukrainian57.mp3';
-// import ukrainian58 from '../voiceclips/ukrainian/ukrainian58.mp3';
-// import ukrainian59 from '../voiceclips/ukrainian/ukrainian59.mp3';
-// import ukrainian60 from '../voiceclips/ukrainian/ukrainian60.mp3';
-// import ukrainian61 from '../voiceclips/ukrainian/ukrainian61.mp3';
-// import ukrainian62 from '../voiceclips/ukrainian/ukrainian62.mp3';
-// import ukrainian63 from '../voiceclips/ukrainian/ukrainian63.mp3';
-// import ukrainian64 from '../voiceclips/ukrainian/ukrainian64.mp3';
-// import ukrainian65 from '../voiceclips/ukrainian/ukrainian65.mp3';
-// import ukrainian66 from '../voiceclips/ukrainian/ukrainian66.mp3';
-// import ukrainian67 from '../voiceclips/ukrainian/ukrainian67.mp3';
+
 const Ukrainian = [
   {
     id: 1,
@@ -77,393 +44,397 @@ const Ukrainian = [
     id: 2,
     name: 'а',
     latin: 'a',
-    sound: 'ukrainian2',
+    sound: 'ukrainian1',
   },
   {
     id: 3,
     name: 'Б',
     latin: 'B',
-    sound: 'ukrainian3',
+    sound: 'ukrainian2',
   },
   {
     id: 4,
     name: 'б',
     latin: 'b',
-    sound: 'ukrainian4',
+    sound: 'ukrainian2',
   },
   {
     id: 5,
     name: 'В',
     latin: 'V',
-    sound: 'ukrainian5',
+    sound: 'ukrainian3',
   },
   {
     id: 6,
     name: 'в',
     latin: 'v',
-    sound: 'ukrainian6',
+    sound: 'ukrainian3',
   },
   {
     id: 7,
     name: 'Г',
     latin: 'H',
-    sound: 'ukrainian7',
+    sound: 'ukrainian4',
   },
   {
     id: 8,
     name: 'г',
     latin: 'h',
-    sound: 'ukrainian8',
+    sound: 'ukrainian4',
   },
   {
     id: 9,
     name: 'Ґ',
     latin: 'G',
-    sound: 'ukrainian9',
+    sound: 'ukrainian5',
   },
   {
     id: 10,
     name: 'ґ',
     latin: 'g',
-    sound: 'ukrainian10',
+    sound: 'ukrainian5',
   },
   {
     id: 11,
     name: 'Д',
     latin: 'D',
-    sound: 'ukrainian11',
+    sound: 'ukrainian6',
   },
   {
     id: 12,
     name: 'д',
     latin: 'd',
-    sound: 'ukrainian12',
+    sound: 'ukrainian6',
   },
   {
     id: 13,
     name: 'Е',
     latin: 'E',
-    sound: 'ukrainian13',
+    sound: 'ukrainian7',
   },
   {
     id: 14,
     name: 'е',
     latin: 'e',
-    sound: 'ukrainian14',
+    sound: 'ukrainian7',
   },
   {
     id: 15,
     name: 'Є',
     latin: 'Ye',
-    sound: 'ukrainian15',
+    sound: 'ukrainian8',
   },
   {
     id: 16,
     name: 'є',
     latin: 'ye',
-    sound: 'ukrainian16',
+    sound: 'ukrainian8',
   },
   {
     id: 17,
     name: 'Ж',
     latin: 'Zh',
-    sound: 'ukrainian17',
+    sound: 'ukrainian9',
   },
   {
     id: 18,
     name: 'ж',
     latin: 'zh',
-    sound: 'ukrainian18',
+    sound: 'ukrainian9',
   },
   {
     id: 19,
     name: 'З',
     latin: 'Z',
-    sound: 'ukrainian19',
+    sound: 'ukrainian10',
   },
   {
     id: 20,
     name: 'з',
     latin: 'z',
-    sound: 'ukrainian20',
+    sound: 'ukrainian10',
   },
   {
     id: 21,
     name: 'И',
     latin: 'Y',
-    sound: 'ukrainian21',
+    sound: 'ukrainian11',
   },
   {
     id: 22,
     name: 'и',
     latin: 'Y',
-    sound: 'ukrainian22',
+    sound: 'ukrainian11',
   },
   {
     id: 23,
     name: 'І',
     latin: 'I',
-    sound: 'ukrainian23',
+    sound: 'ukrainian12',
   },
   {
     id: 24,
     name: 'і',
     latin: 'i',
-    sound: 'ukrainian24',
+    sound: 'ukrainian12',
   },
   {
     id: 25,
     name: 'Ї',
     latin: 'Yi',
-    sound: 'ukrainian25',
+    sound: 'ukrainian13',
   },
   {
     id: 26,
     name: 'ї',
     latin: 'yi',
-    sound: 'ukrainian26',
+    sound: 'ukrainian13',
   },
   {
     id: 27,
     name: 'Й',
     latin: 'Y',
-    sound: 'ukrainian27',
+    sound: 'ukrainian14',
   },
   {
     id: 28,
     name: 'й',
     latin: 'Y',
-    sound: 'ukrainian28',
+    sound: 'ukrainian14',
   },
   {
     id: 29,
     name: 'К',
     latin: 'K',
-    sound: 'ukrainian29',
+    sound: 'ukrainian15',
   },
   {
     id: 30,
     name: 'к',
     latin: 'k',
-    sound: 'ukrainian30',
+    sound: 'ukrainian15',
   },
   {
     id: 31,
     name: 'Л',
     latin: 'L',
-    sound: 'ukrainian31',
+    sound: 'ukrainian16',
   },
   {
     id: 32,
     name: 'л',
     latin: 'l',
-    sound: 'ukrainian32',
+    sound: 'ukrainian16',
   },
   {
     id: 33,
     name: 'М',
     latin: 'M',
-    sound: 'ukrainian33',
+    sound: 'ukrainian17',
   },
   {
     id: 34,
     name: 'м',
     latin: 'm',
-    sound: 'ukrainian34',
+    sound: 'ukrainian17',
   },
   {
     id: 35,
     name: 'Н',
     latin: 'N',
-    sound: 'ukrainian35',
+    sound: 'ukrainian18',
   },
   {
     id: 36,
     name: 'н',
     latin: 'n',
-    sound: 'ukrainian36',
+    sound: 'ukrainian18',
   },
   {
     id: 37,
     name: 'О',
     latin: 'O',
-    sound: 'ukrainian37',
+    sound: 'ukrainian19',
   },
   {
     id: 38,
     name: 'о',
     latin: 'o',
-    sound: 'ukrainian38',
+    sound: 'ukrainian19',
   },
   {
     id: 39,
     name: 'П',
     latin: 'P',
-    sound: 'ukrainian39',
+    sound: 'ukrainian20',
   },
   {
     id: 40,
     name: 'п',
     latin: 'p',
-    sound: 'ukrainian40',
+    sound: 'ukrainian20',
   },
   {
     id: 41,
     name: 'Р',
     latin: 'R',
-    sound: 'ukrainian41',
+    sound: 'ukrainian21',
   },
   {
     id: 42,
     name: 'р',
     latin: 'r',
-    sound: 'ukrainian42',
+    sound: 'ukrainian21',
   },
   {
     id: 43,
     name: 'С',
     latin: 'S',
-    sound: 'ukrainian43',
+    sound: 'ukrainian22',
   },
   {
     id: 44,
     name: 'с',
     latin: 's',
-    sound: 'ukrainian44',
+    sound: 'ukrainian22',
   },
   {
     id: 45,
     name: 'Т',
     latin: 'T',
-    sound: 'ukrainian45',
+    sound: 'ukrainian23',
   },
   {
     id: 46,
     name: 'т',
     latin: 't',
-    sound: 'ukrainian46',
+    sound: 'ukrainian23',
   },
   {
     id: 47,
     name: 'У',
     latin: 'U',
-    sound: 'ukrainian47',
+    sound: 'ukrainian24',
   },
   {
     id: 48,
     name: 'у',
     latin: 'u',
-    sound: 'ukrainian48',
+    sound: 'ukrainian24',
   },
   {
     id: 49,
     name: 'Ф',
     latin: 'F',
-    sound: 'ukrainian49',
+    sound: 'ukrainian25',
   },
   {
     id: 50,
     name: 'ф',
     latin: 'f',
-    sound: 'ukrainian50',
+    sound: 'ukrainian25',
   },
   {
     id: 51,
     name: 'Х',
     latin: 'Kh',
-    sound: 'ukrainian51',
+    sound: 'ukrainian261',
   },
   {
     id: 52,
     name: 'х',
     latin: 'kh',
-    sound: 'ukrainian52',
+    sound: 'ukrainian26',
   },
   {
     id: 53,
     name: 'Ц',
     latin: 'Ts',
-    sound: 'ukrainian53',
+    sound: 'ukrainian27',
   },
   {
     id: 54,
     name: 'ц',
     latin: 'ts',
-    sound: 'ukrainian54',
+    sound: 'ukrainian27',
   },
   {
     id: 55,
     name: 'Ч',
     latin: 'Ch',
-    sound: 'ukrainian55',
+    sound: 'ukrainian28',
   },
   {
     id: 56,
     name: 'ч',
     latin: 'ch',
-    sound: 'ukrainian56',
+    sound: 'ukrainian28',
   },
   {
     id: 57,
     name: 'Ш',
     latin: 'Sh',
-    sound: 'ukrainian57',
+    sound: 'ukrainian29',
   },
   {
     id: 58,
     name: 'ш',
     latin: 'sh',
-    sound: 'ukrainian58',
+    sound: 'ukrainian29',
   },
   {
     id: 59,
     name: 'Щ',
     latin: 'Shch',
-    sound: 'ukrainian59',
+    sound: 'ukrainian30',
   },
   {
     id: 60,
     name: 'щ',
     latin: 'shch',
-    sound: 'ukrainian60',
+    sound: 'ukrainian30',
   },
   {
     id: 61,
     name: 'Ь',
     latin: 'ʼ',
-    sound: 'ukrainian61',
+    sound: '',
   },
   {
     id: 62,
     name: 'ь',
     latin: 'ʼ',
-    sound: 'ukrainian62',
+    sound: '',
   },
   {
     id: 63,
     name: 'Ю',
     latin: 'Yu',
-    sound: 'ukrainian63',
+    sound: 'ukrainia32',
   },
   {
     id: 64,
     name: 'ю',
     latin: 'yu',
-    sound: 'ukrainian64',
+    sound: 'ukrainian32',
   },
   {
     id: 65,
     name: 'Я',
     latin: 'Ya',
-    sound: 'ukrainian65',
+    sound: 'ukrainian33',
   },
   {
     id: 66,
     name: 'я',
     latin: 'ya',
-    sound: 'ukrainian66',
+    sound: 'ukrainian33',
   },
-  {id: 67, name: 'ʼ', latin: 'ˮ', sound: 'ukrainian67'},
+  {id: 67,
+    name: 'ʼ',
+    latin: 'ˮ',
+    sound: '',
+  },
 ];
 
 export default Ukrainian;
